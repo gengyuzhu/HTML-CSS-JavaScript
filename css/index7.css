@@ -1,0 +1,146 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 120px 0 160px;
+}
+.main ul {
+    display: flex;
+    padding-bottom: 35px;
+}
+.main ul li:first-child {
+    width: 300px;
+    height: 50px;
+    background: #ffc72c;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #745e3a;
+    position: relative;
+}
+.main ul li:first-child::before {
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 3px;
+    background: #d64537;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+}
+.main ul li:last-child {
+    width: 298px;
+    height: 50px;
+    background: #f5ead9;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: #745e3a;
+}
+.main input {
+    width: 598px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 1;
+    border: 1px solid #745e3a;
+    padding-left: 44px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 122px;
+    height: 64px;
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #745e3a;
+    text-align: center;
+    padding: 24px 0 41px;
+}
+
+.main .text {
+    width: 100%;
+    font-size: 18px;
+    color: #745e3a;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .text span input {
+    margin: 0;
+}
+.main .text span {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.main .text span input {
+    margin-right: 10px;
+}
+.btn {
+    width: 598px;
+    height: 46px;
+    background: #ffc72c;
+    border-radius: 23px 23px 23px 23px;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 0;
+    position: relative;
+}
+.btn::after {
+    position: absolute;
+    content: "";
+    width: 598px;
+    height: 0px;
+    opacity: 1;
+    border: 1px solid #707070;
+    margin: 32px 0 18px;
+    left: 0;
+    display: block;
+}
+.text input {
+    width: 16px;
+    height: 16px;
+    background: #ffc72c;
+    border-radius: 2px 2px 2px 2px;
+    opacity: 1;
+    padding: 0;
+}
+.inp {
+    width: 598px;
+    padding: 0 34px 0 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 1;
+    border: 1px solid #745e3a;
+}
+.inp input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.main .inp input:last-child {
+    width: 16px;
+    height: 16px;
+    background: #ffc72c;
+    border-radius: 2px 2px 2px 2px;
+    opacity: 1;
+}
+
+.main .not {
+    margin-top: 50px;
+    padding: 0;
+}

@@ -1,0 +1,61 @@
+.main {
+    width: 100%;
+    background: #faf5f1;
+}
+
+.main ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 20px 0 160px 0;
+    margin-bottom: 30px;
+}
+
+.main ul li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.main ul li::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/G1.png);
+    top: -20px;
+    left: -20px;
+}
+
+.main ul li img {
+    width: 182px;
+    height: 275px;
+    margin-right: 10px;
+}
+
+.main ul li p img {
+    width: 26px;
+    height: 25px;
+}
+
+.main ul li p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #745e3a;
+}
+
+.main ul li p {
+    font-size: 18px;
+    color: #745e3a;
+    display: flex;
+    margin: 22px 0;
+}
+
+.main ul li p span {
+    font-size: 18px;
+    color: #d64537;
+}
